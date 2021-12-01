@@ -42,7 +42,11 @@ h3:before { content: "||| " }
 h4:before { content: "|||| " }
 h5:before { content: "||||| " }
 h6:before { content: "|||||| " }
-   
+
+.error h1:before {
+    content: ""
+}
+
 h1:before { color: #d79921; }
 h2:before,
 h4:before,
