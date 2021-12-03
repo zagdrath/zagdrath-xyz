@@ -18,7 +18,7 @@ img {
 }
    
 code {
-    background-color: #3c3836;
+    background-color: #282828;
     padding: 2px
 }
 
@@ -63,8 +63,6 @@ pre {
     background-color: #282828;
     color: #d5c4a1;
     border: 1pt solid #d5c4a1;
-    padding: 1em;
-    box-shadow: 5pt 5pt 8pt #3c3836
 }
 
 pre code { background-color: #282828 }
