@@ -5,3 +5,5 @@ This repository contains all of the source code to my personal website located a
 
 ## License
 This source code is licensed under The GNU General Public License v3.0.
+
+Copyright © 2021, Zagdrath. All Rights Reserved.
