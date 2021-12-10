@@ -1,4 +1,4 @@
-# Zagdrath.xyz
+# zagdrath.xyz
 
 ## Description
 This repository contains the source code to my personal website located at <a href="https://zagdrath.xyz/">zagdrath.xyz</a>.
