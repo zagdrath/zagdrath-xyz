@@ -2,10 +2,11 @@
 html {
     background-color: #002b36;
     color: #839496;
-    margin: 1em;
+    margin: 1em auto;
     font-weight: 400;
     font-family: 'Fira Mono', monospace;
     font-size: 14px;
+    max-width: 930px;
 }
 
 body {
