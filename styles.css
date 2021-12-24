@@ -9,6 +9,10 @@ html {
     max-width: 930px;
 }
 
+table, th, td {
+    border:1px solid #839496;
+}
+
 body {
     background-color: #073642;
     margin: 1em;
