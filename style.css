@@ -24,6 +24,16 @@ img {
 	border-radius: 8px;
 }
 
+#block {
+    border-left: 6px solid #fb5;
+    background-color: #1a1a1a;
+}
+
+#inblock {
+    margin: 12px;
+	padding: 6px;
+}
+
 /* Begin Fancyboi */
 #fancyboi::before {
 	content: "$ ";

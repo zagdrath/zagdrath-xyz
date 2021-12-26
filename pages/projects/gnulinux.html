@@ -19,16 +19,115 @@
     <a style="float: right;" href="../projects.html"><- Back</a>
 
     <h3>What is GNU/Linux?</h3>
-    <p>Linux or GNU/Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds and The GNU Project, started in 1983 by Richard Stallman who had the goal of creating a complete Unix-compatible software system composed entirely of free software. Linux at its core is just the Linux kernel and Linux, along with the GNU system, it makes up a complete operating system.</p>
-    <p>Together, releases of GNU/Linux are often dubbed Distributions or Distros, which include the Linux kernel and supporting system software and libraries, many of which are provided by the GNU Project. Commonly mentioned Linux distributions include Debian, Ubuntu, Fedora, and Arch. Desktop Linux distributions include a windowing system such as X11 or Wayland, and a desktop environment such as GNOME or KDE. Because Linux is freely re-distributed, anyone may create a distribution for any purpose, you too may be so compelled to do so.</p>
+    <p>Linux or GNU/Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds and The GNU Project, started in 1983 by Richard Stallman who had the goal of creating a complete Unix-compatible software system composed entirely of free software. GNU/Linux at its core is just the Linux kernel along with the GNU system and it makes up a complete operating system.</p>
+    <p>Together, releases of GNU/Linux are often dubbed distributions or distros, which include the Linux kernel and supporting system software and libraries, many of which are provided by the GNU Project. Commonly mentioned GNU/Linux distributions include Debian, Ubuntu, Fedora, and Arch. Desktop GNU/Linux distributions include a windowing system such as X11 or Wayland, and a desktop environment such as GNOME or KDE. Because GNU/Linux is freely re-distributed, anyone may create a distribution for any purpose, and you too may be compelled to do so.</p>
 
     <h3>The Philosophy of GNU/Linux and why use GNU/Linux</h3>
+    <p>The basis of most of the following philosophies, however, is the Free Libre Software Philosophy, FLOSS, or the GNU Philosophy, which is a focus of an open and shared operating systems which is not only free as in money, often dubbed as "Gratis", but free as in freedom, dubbed as "Libre". The GNU/Linux operating systems gives users more control over their computing experience than competing operating systems such as Windows, which could contain malicious features without the user's knowledge. Further reading on the philosophy about Unix and GNU/Linux can be found in the links below.</p>
+    <dl>
+        <dt>~> <a href="https://en.wikipedia.org/wiki/Unix_philosophy">Unix Philosophy</a></dt>
+        <dt>~> <a href="unixrules.html">Rules of the Unix Philosophy</a></dt>
+        <dt>~> <a href="https://www.gnu.org/philosophy/philosophy.html">Philosophy of the GNU Project</a></dt>
+        <dt>~> <a href="http://www.catb.org/esr/writings/taoup/html/ch01s06.html">Basics of the Unix Philosophy</a></dt>
+    </dl>
+
+    <h3>Picking a Distribution</h3>
+    <p>Picking your first GNU/Linux distribution can be challenging for those who may not be too sure what they are actually looking for. In this section I will be giving a brief introduction to the main branches of GNU/Linux and the steps to take to pick your own Linux distribution that meets your needs. Often when looking into the history of GNU/Linux distributions they are often shown something like a large tree forking into smaller and smaller branches. This is often overwhelming to new and old users alike due to the sheer scope and branches GNU/Linux has had over it's generations. To simplify this tree I will be breaking it down to the main branches in which a majority of GNU/Linux distributions are forked which is shown below.</p>
+    <div id="block">
+        <div id="inblock">
+            <dl>
+                <dt>~> <a href="http://www.slackware.com/">Slackware (Released in 1993)</a></dt>
+                <p>Slackware was developed by Patrick Volkerding and was designed with two main objectives in mind, ease of use and stability. Originally based on Softlanding Linux System, Slackware has been the basis for many other distributions, most notably the first versions of SUSE Linux distributions, and is the oldest distribution that is still maintained. Slackware was also designed to be the most "Unix-like" GNU/Linux distribution. This is considered the first in a great legacy of GNU/Linux operating systems.</p>
+                <dt>~> <a href="https://www.debian.org/">Debian (Released in 1993)</a></dt>
+                <p>Debian was developed by the community-supported Debian Project, which was established by Ian Murdock. Debian is also the basis for many other distributions, most notably Ubuntu. Debian is one of the oldest operating systems based on the Linux kernel. Debian comes with over 50,000 packages, compiled in their repositories with thousands of programmers supporting the operating system.</p>
+                <dt>~> <a href="https://www.linuxfromscratch.org/">Linux From Scratch (Released in 1999)</a></dt>
+                <p>Linux From Scratch is a project that provides you with the steps necessary to build your own custom GNU/Linux system, entirely from source code. This is also a great way to learn how different aspects of GNU/Linux work. It also is a great way to have a GNU/Linux distro very customized to your own taste and needs.</p>
+                <dt>~> <a href="https://www.gentoo.org/">Gentoo (Released in 2000)</a></dt>
+                <p>Gentoo is a GNU/Linux distribution initially developed by Daniel Robbins, and it is built using the Portage package management system. Unlike other distribution's package managers, Portage is a true ports system in the tradition of BSD ports, but is Python based and sports a number of additional features.</p>
+                <dt>~> <a href="https://archlinux.org/">Arch (Released in 2002)</a></dt>
+                <p>Arch is an independently developed distribution targeted at competent GNU/Linux users who want to customize and build their own distribution but is unwilling to use LFS or Gentoo. It uses 'pacman', its home-grown package manager, to provide updates to the latest software applications with full dependency tracking. The default install provides a solid base that enables users to create a custom installation.</p>
+                <dt>~> <a href="https://getfedora.org/">Fedora (Released in 2003)</a></dt>
+                <p>Fedora is a GNU/Linux distribution developed by the community and owned by Red Hat. Fedora contains software distributed under a free and open source license. Fedora is focused on innovation over the stability of RHEL, integrating new technologies early on and working closely with upstream GNU/Linux communities. Fedora also offers spins which have specific sets of software, offering alternative desktop environments or specific interests such as gaming, security, design, scientific computing and robotics.</p>
+                </dl>
+        </div>
+    </div>
+    <p>These are the foundation of most GNU/Linux distributions and is what I recommend for people to look at for distros or any forks of these distros. I recommend these because most of them will give you a long lifespan, more stability, and more support as a user when troubleshooting issues. Shown below are some websites with many more distros to choose from.</p>
+    <dl>
+        <dt>~> <a href="https://lwn.net/Distributions/">LWN</a></dt>
+        <dt>~> <a href="https://en.wikipedia.org/wiki/List_of_Linux_distributions">Wikipedia</a></dt>
+        <dt>~> <a href="https://itsfoss.com/">It's FOSS</a></dt>
+        <dt>~> <a href="https://distrowatch.com/">DistroWatch</a></dt>
+    </dl>
+    <p>Making a boot-able USB drive is important to be able to boot and install your chosen distro. It is recommended to look at the distros own documentation on how to make a boot-able USB drive but here is the usual way to do so.</p>
+    <dl>
+        <dt>~> Download the disk image or ISO of your chosen distro</dt>
+        <br>
+        <dt>~> Verify the integrity of the download if a checksum is provided (This can be skipped though not recommended to do so)</dt>
+        <br>
+        <dt>~> Use some sort of imaging tool to image your disk image or ISO to your USB drive, I suggest checking the distro's doccumentation but you can also check out <a href="https://rufus.ie/en/">Rufus</a>. After this you should have a USB drive that is ready to be booted from to install your distro of choice.</dt>
+    </dl>
+
+    <h3>What is Systemd and why Does it Matter?</h3>
+    <p>Systemd is a software suite that provides a collection of system components for the GNU/Linux operating system. The primary purpose of Systemd is to script and organize boot functions for GNU/Linux using a system and service manager, which is an init system. An init is an initialization program, which is the first process started during booting of the computer system. The init process is directly started by the kernel, in this case, the Linux kernel, and will continue running until the computer is shut down. Systemd used this init system to bootstrap user space and manage user processes. It also provides replacements for various daemons and utilities, including device management, login management, network connection management, and event logging.</p>
+
+    <h3>What is a Desktop Enviroment and Which one Should you Pick?</h3>
+    <p>A desktop environment is a graphical user interface or GUI where you are able to interface with the entire computer graphically rather than just through a terminal. A desktop environment also encompasses a lot of other tools to assist the user in graphical computing. Furthermore a desktop environment utilizes a widget toolkit, which provides a set of controls that display information to the user. Currently there are two big tool-kits, GTK (GIMP ToolKit) and Qt. Below is a brief breakdown of the most popular and commonly used desktop environments.</p>
+    <div id="block">
+        <div id="inblock">
+            <dl>
+                <dt>~> <a href="https://xfce.org/">Xfce (Released in 1996)</a></dt>
+                <p>Xfce is a lightweight desktop environment that aims to be fast and low on system resources, while still being visually appealing and user friendly. It consists of separately packaged parts that together provide all functions of the desktop environment, but can be selected in subsets to suit user needs and preference. Xfce uses the GTK graphical tool kit and is licensed under the GPL, LGPL, and BSD licenses.</p>
+                <dt>~> <a href="https://www.enlightenment.org/">Enlightenment (Released in 1996)</a></dt>
+                <p>Enlightenment is a window manager, compositor and minimal desktop and the project is currently primarily supporting X11 but has experimental Wayland support. Enlightenment includes functions to provide a graphical shell, and it can be used in conjunction with programs written for GNOME or KDE. Enlightenment uses the EFL graphical tool kit and is licensed under the BSD license.</p>
+                <dt>~> <a href="https://kde.org/plasma-desktop/">KDE Plasma (Released in 1998)</a></dt>
+                <p>KDE Plasma (often called just KDE) is a popular desktop environment for the X Window System. The graphical interface uses openGL for hardware acceleration, which results in better performance and reduced power consumption. KDE Plasma uses the Qt graphical tool kit and is licensed under the LGPL license.</p>
+                <dt>~> <a href="https://www.gnome.org/">GNOME (Released in 1999)</a></dt>
+                <p>GNOME is a desktop environment that aims to be simple and easy to use. It is designed by The GNOME Project and is composed entirely of free and open-source software. GNOME 3 is the default desktop environment on many major GNU/Linux distributions. GNOME uses the GTK graphical tool kit and is licensed under the GPL and LGPL licenses.</p>
+                <dt>~> <a href="https://cinnamon-spices.linuxmint.com/">Cinnamon (Released in 2011)</a></dt>
+                <p>Cinnamon is a free and open-source desktop environment for the X Window System that derives from GNOME 3 but follows traditional desktop metaphor conventions. As the distinguishing factor of Linux Mint, Cinnamon has generally received favorable coverage by the press, in particular for its ease of use and gentle learning curve. With respect to its conservative design model, Cinnamon is similar to the Xfce and GNOME 2 desktop environments. Cinnamon uses the GTK graphical tool kit and is licensed under the GPL license.</p>
+                <dt>~> <a href="https://mate-desktop.org/">MATE (Released in 2011)</a></dt>
+                <p>The MATE Desktop Environment is the continuation of GNOME 2. It provides an intuitive and attractive desktop environment using traditional metaphors for GNU/Linux and other Unix-like operating systems. MATE uses the GTK graphical tool kit and is licensed under the GPL and LGPL licenses.</p>
+                <dt>~> <a href="https://lxqt-project.org/">LXQt (Released in 2014)</a></dt>
+                <p>LXQt is a free and open source lightweight desktop environment. It was formed from the merger of the LXDE and Razor-qt projects. LXQt is a very lightweight desktop environment and it uses the Qt graphical tool kit and is licensed under the GPL and LGPL licenses.</p>
+            </dl>
+        </div>
+    </div>
+    <p>Starting with Enlightenment, XFCE, and LXQt being in the lower end of the specs, at or around 100 MiB of usage. These desktop environments boot up very snappy and range from 5-10 seconds from boot to terminal. These lower spec Desktop Environments also have a common focus on a Mouse Centered work-flow. In this category based on resources, ease of use, and aesthetics, I would recommend XFCE to start. If you need to keep the looks of a proper desktop but also desire to squeak out a bit more power from your system, Enlightenment is a great option. For those moving from Windows and need a familiar space I would look into using LXQt.</p>
+    <p>Following with MATE, Cinnamon, GNOME, and KDE these are our heavier usage desktop environments, these often show RAM spikes at about 150 - 300 MiB. Boot times vary, ranging from 20-45 seconds to terminal. The trend with these desktop environments as well, is that they follow a more Keyboard Centered design for easier work-flow and Touch-Screen functionality. All are clean and look like a modern desktop. I would recommend either KDE if you are coming from Windows and need a familiar space. For those wanting to feel what modern GNU/Linux is like, I recommend GNOME or personally I prefer Cinnamon.</p>
+
+    <h3>Free Libre Open-Source Software Alternatives</h3>
+    <p>When switching to GNU/Linux it can be difficult to find helpful and functional alternatives to common software while also maintaining your freedom. Using FLOSS (Free Libre Open Source Software) can be liberating and allow you to work in a well maintained environment. To find GNU/Linux based alternatives to popular software you can explore the links shown below.</p>
+    <dl>
+        <dt>~> <a href="https://alternativeto.net/platform/linux/">AlternativeTo</a></dt>
+        <dt>~> <a href="https://itsfoss.com/essential-linux-applications/">It's FOSS</a></dt>
+    </dl>
+
+    <h3>Window Managers</h3>
+    <p>Currently most GNU/Linux and BSD distributions use the X Window System for drawing the desktop, while the X System does not manage the windows, instead it depends on a special client application called a window manager. The window manager moves and sizes windows in response to user input. Window managers can be divided into these three categories. Stacking, which allows windows to draw their contents one on top of another on the desktop, starting with the one on the bottom and going up in the "Z order". Compositing , provides a buffer for each window to draw on and then compose those buffers together creating the desktop image. This type of window manager allows use of semitransparent windows. Tiling, in which the windows do not overlap. Tiling Window Managers can also be divided into Static tiling WMs and Dynamic tiling WMs.</p>
+    <div id="block">
+        <div id="inblock">
+            <dl>
+                <dt>~> Full Dynamic Window Managers</dt>
+                <p>Awesome and i3</p>
+                <dt>~> Full Stacking Window Managers</dt>
+                <p>Blackbox, Fluxbox, and Openbox</p>
+                <dt>~> Full Compositing Window Managers</dt>
+                <p>Compiz, KWin, Mutter, and XFWM</p>
+                <dt>~> Minimal Dynamic Window Managers</dt>
+                <p>DWM and MonsterWM</p>
+                <dt>~> Minimal Tiling Window Managers</dt>
+                <p>BSPWM, Ratpoison, WMFS2, and Xmonad</p>
+                <dt>~> Minimal Stacking Window Managers</dt>
+                <p>2BWM, Rio, and WindowMaker</p>
+            </dl>
+        </div>
+    </div>
     <!-- End Body -->
 
     <hr></hr>
 
     <!-- Begin Footer -->
-    <p>This webpage is licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License v3.0</a>.</p>
+    <p>This website is licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License v3.0</a>.</p>
     <!-- End Footer -->
 
 </body>
