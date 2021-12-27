@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<title>Rules of the Unix Philosophy</title>
+	<title>An Introduction to Unix Philosophy</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="../../style.css">
     <script src="https://kit.fontawesome.com/7435a17a7c.js" crossorigin="anonymous"></script>
@@ -9,16 +9,145 @@
 <body>
 
     <!-- Begin Header -->
-    <h1 id="fancyboi">Basics of the Unix Philosophy</h1>
+    <h1 id="fancyboi">An Introduction to Unix Philosophy</h1>
     
     <!-- End Header -->
 
     <hr></hr>
 
     <!-- Begin Body -->
-    <a style="float: right;" href="gnulinux.html"><- Back</a>
+    <a style="float: right;" href="../projects.html"><- Back</a>
+    <br>
+    
+    <p>The Unix philosophy, originated by Ken Thompson, is a set of cultural norms and philosophical approaches to minimalist, modular software development. It is based on the experience of leading developers of the Unix operating system. Early Unix developers were important in bringing the concepts of modularity and reusability into software engineering practice, spawning a "software tools" movement. Over time, the leading developers of Unix (and programs that ran on it) established a set of cultural norms for developing software; these norms became as important and influential as the technology of Unix itself; this has been termed the "Unix philosophy."</p>
+    <p>The Unix philosophy emphasizes building simple, short, clear, modular, and extensible code that can be easily maintained and repurposed by developers other than its creators. The Unix philosophy favors composability as opposed to monolithic design. </p>
+  
+    <h3>Origin</h3>
+    <p>The Unix philosophy is documented by Doug McIlroy in the Bell System Technical Journal from 1978:</p>
+    <div id="block">
+        <div id="inblock">
+            <p>~> Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new "features".</p>
+            <p>~> Expect the output of every program to become the input to another, as yet unknown, program. Don't clutter output with extraneous information. Avoid stringently columnar or binary input formats. Don't insist on interactive input.</p>
+            <p>~> Design and build software, even operating systems, to be tried early, ideally within weeks. Don't hesitate to throw away the clumsy parts and rebuild them.</p>
+            <p>~> Use tools in preference to unskilled help to lighten a programming task, even if you have to detour to build the tools and expect to throw some of them out after you've finished using them.</p>
+        </div>
+    </div>
+    <p>It was later summarized by Peter H. Salus in A Quarter-Century of Unix (1994):</p>
+    <div id="block">
+        <div id="inblock">
+            <p>~> Write programs that do one thing and do it well.</p>
+            <p>~> Write programs to work together.</p>
+            <p>~> Write programs to handle text streams, because that is a universal interface</p>
+        </div>
+    </div>
+    <p>In their award-winning Unix paper of 1974, Ritchie and Thompson quote the following design considerations:</p>
+    <div id="block">
+        <div id="inblock">
+            <p>~> Make it easy to write, test, and run programs.</p>
+            <p>~> Interactive use instead of batch processing.</p>
+            <p>~> Economy and elegance of design due to size constraints ("salvation through suffering").</p>
+            <p>~> Self-supporting system: all Unix software is maintained under Unix.</p>
+        </div>
+    </div>
+    <p>Broadly, UNIX has been characterized as:</p>
+    <div id="block">
+        <div id="inblock">
+            <p>The whole philosophy of UNIX seems to stay out of assembler.</p>
+            <p style="text-align: right;">-- Michael Sean Mahoney</p>
+        </div>
+    </div>
 
+    <h3>The Unix Programming Environment</h3>
+    <p>In their preface to the 1984 book, The UNIX Programming Environment, Brian Kernighan and Rob Pike, both from Bell Labs, give a brief description of the Unix design and the Unix philosophy:</p>
+    <div id="block">
+        <div id="inblock">
+            <p>Even though the UNIX system introduces a number of innovative programs and techniques, no single program or idea makes it work well. Instead, what makes it effective is the approach to programming, a philosophy of using the computer. Although that philosophy can't be written down in a single sentence, at its heart is the idea that the power of a system comes more from the relationships among programs than from the programs themselves. Many UNIX programs do quite trivial things in isolation, but, combined with other programs, become general and useful tools.</p>
+        </div>
+    </div>
+    <p>The authors further write that their goal for this book is "to communicate the UNIX programming philosophy."</p>
 
+    <h3>Program Design in the Unix Environment</h3>
+    <p>In October 1984, Brian Kernighan and Rob Pike published a paper called Program Design in the UNIX Environment. In this paper, they criticize the accretion of program options and features found in some newer Unix systems such as 4.2BSD and System V, and explain the Unix philosophy of software tools, each performing one general function:</p>
+    <div id="block">
+        <div id="inblock">
+            <p>Much of the power of the UNIX operating system comes from a style of program design that makes programs easy to use and, more important, easy to combine with other programs. This style has been called the use of software tools, and depends more on how the programs fit into the programming environment and how they can be used with other programs than on how they are designed internally. This style was based on the use of tools: using programs separately or in combination to get a job done, rather than doing it by hand, by monolithic self-sufficient subsystems, or by special-purpose, one-time programs.</p>
+        </div>
+    </div>
+    <p>The authors contrast Unix tools such as cat, with larger program suites used by other systems.</p>
+    <div id="block">
+        <div id="inblock">
+            <p>The design of cat is typical of most UNIX programs: it implements one simple but general function that can be used in many different applications (including many not envisioned by the original author). Other commands are used for other functions. For example, there are separate commands for file system tasks like renaming files, deleting them, or telling how big they are. Other systems instead lump these into a single "file system" command with an internal structure and command language of its own. (The PIP file copy program found on operating systems like CP/M or RSX-11 is an example.) That approach is not necessarily worse or better, but it is certainly against the UNIX philosophy.</p>
+        </div>
+    </div>
+
+    <h3>Doug McIlroy on Unix programming</h3>
+    <p>McIlroy, then head of the Bell Labs Computing Sciences Research Center, and inventor of the Unix pipe, summarized the Unix philosophy as follows:</p>
+    <div id="block">
+        <div id="inblock">
+            <p>This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.</p>
+        </div>
+    </div>
+    <p>Beyond these statements, he has also emphasized simplicity and minimalism in Unix programming:</p>
+    <div id="block">
+        <div id="inblock">
+            <p>The notion of "intricate and beautiful complexities" is almost an oxymoron. Unix programmers vie with each other for "simple and beautiful" honors — a point that's implicit in these rules, but is well worth making overt.</p>
+        </div>
+    </div>
+    <p>Conversely, McIlroy has criticized modern Linux as having software bloat, remarking that, "adoring admirers have fed Linux goodies to a disheartening state of obesity." He contrasts this with the earlier approach taken at Bell Labs when developing and revising Research Unix:</p>
+    <div id="block">
+        <div id="inblock">
+            <p>Everything was small... and my heart sinks for Linux when I see the size of it. The manual page, which really used to be a manual page, is now a small volume, with a thousand options... We used to sit around in the Unix Room saying, 'What can we throw out? Why is there this option?' It's often because there is some deficiency in the basic design — you didn't really hit the right design point. Instead of adding an option, think about what was forcing you to add that option.</p>
+        </div>
+    </div>
+
+    <h3>Do one Thing and do it Well</h3>
+    <p>As stated by McIlroy, and generally accepted throughout the Unix community, Unix programs have always been expected to follow the concept of DOTADIW, or "Do One Thing And Do It Well." There are limited sources for the acronym DOTADIW on the Internet, but it is discussed at length during the development and packaging of new operating systems, especially in the Linux community.</p>
+    <p>Patrick Volkerding, the project lead of Slackware Linux, invoked this design principle in a criticism of the systemd architecture, stating that, "attempting to control services, sockets, devices, mounts, etc., all within one daemon flies in the face of the Unix concept of doing one thing and doing it well."</p>
+
+    <h3>Eric Raymond's 17 Unix Rules</h3>
+    <p>In his book The Art of Unix Programming that was first published in 2003, Eric S. Raymond, an American programmer and open source advocate, summarizes the Unix philosophy as KISS Principle of "Keep it Simple, Stupid." He provides a series of design rules:</p>
+    <div id="block">
+        <div id="inblock">
+            <p>~> Build modular programs</p>
+            <p>~> Write readable programs</p>
+            <p>~> Use composition</p>
+            <p>~> Separate mechanisms from policy</p>
+            <p>~> Write simple programs</p>
+            <p>~> Write small programs</p>
+            <p>~> Write transparent programs</p>
+            <p>~> Write robust programs</p>
+            <p>~> Make data complicated when required, not the program</p>
+            <p>~> Build on potential users' expected knowledge</p>
+            <p>~> Avoid unnecessary output</p>
+            <p>~> Write programs which fail in a way that is easy to diagnose</p>
+            <p>~> Value developer time over machine time</p>
+            <p>~> Write abstract programs that generate code instead of writing code by hand</p>
+            <p>~> Prototype software before polishing it</p>
+            <p>~> Write flexible and open programs</p>
+            <p>~> Make the program and protocols extensible.</p>
+        </div>
+    </div>
+    
+    <h3>Mike Gancarz: The Unix Philosophy</h3>
+    <p>In 1994, Mike Gancarz (a member of the team that designed the X Window System), drew on his own experience with Unix, as well as discussions with fellow programmers and people in other fields who depended on Unix, to produce The UNIX Philosophy which sums it up in nine paramount precepts:</p>
+    <div id="block">
+        <div id="inblock">
+            <p>~> Small is beautiful.</p>
+            <p>~> Make each program do one thing well.</p>
+            <p>~> Build a prototype as soon as possible.</p>
+            <p>~> Choose portability over efficiency.</p>
+            <p>~> Store data in flat text files.</p>
+            <p>~> Use software leverage to your advantage.</p>
+            <p>~> Use shell scripts to increase leverage and portability.</p>
+            <p>~> Avoid captive user interfaces.</p>
+            <p>~> Make every program a filter.</p>
+        </div>
+    </div>
+
+    <h3>"Worse is better"</h3>
+    <p>Richard P. Gabriel suggests that a key advantage of Unix was that it embodied a design philosophy he termed "worse is better", in which simplicity of both the interface and the implementation are more important than any other attributes of the system—including correctness, consistency, and completeness. Gabriel argues that this design style has key evolutionary advantages, though he questions the quality of some results.</p>
+    <p>For example, in the early days Unix used a monolithic kernel (which means that user processes carried out kernel system calls all on the user stack). If a signal was delivered to a process while it was blocked on a long-term I/O in the kernel, then what should be done? Should the signal be delayed, possibly for a long time (maybe indefinitely) while the I/O completed? The signal handler could not be executed when the process was in kernel mode, with sensitive kernel data on the stack. Should the kernel back-out the system call, and store it, for replay and restart later, assuming that the signal handler completes successfully?</p>
+    <p>In these cases Ken Thompson and Dennis Ritchie favored simplicity over perfection. The Unix system would occasionally return early from a system call with an error stating that it had done nothing—the "Interrupted System Call", or an error number 4 (EINTR) in today's systems. Of course the call had been aborted in order to call the signal handler. This could only happen for a handful of long-running system calls such as read(), write(), open(), and select(). On the plus side, this made the I/O system many times simpler to design and understand. The vast majority of user programs were never affected because they did not handle or experience signals other than SIGINT and would die right away if one was raised. For the few other programs—things like shells or text editors that respond to job control key presses—small wrappers could be added to system calls so as to retry the call right away if this EINTR error was raised. Thus, the problem was solved in a simple manner.</p>
     <!-- End Body -->
 
     <hr></hr>
