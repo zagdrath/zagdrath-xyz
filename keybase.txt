@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/zagdrath
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.zagdrath.xyz
+  * I am zagdrath (https://keybase.io/zagdrath) on keybase.
+  * I have a public key with fingerprint CA11 FA02 B6F5 DBBB BF66  6EFB 37CB 06EB DD1F 31E5
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101e6d2642e365ca3c87dd48e8ad06acbca7621ba83477553262d42bb6e1d40561d0a",
+      "fingerprint": "ca11fa02b6f5dbbbbf666efb37cb06ebdd1f31e5",
+      "host": "keybase.io",
+      "key_id": "37cb06ebdd1f31e5",
+      "kid": "0101e6d2642e365ca3c87dd48e8ad06acbca7621ba83477553262d42bb6e1d40561d0a",
+      "uid": "48446eaa15ddfa4512bead38a1585b19",
+      "username": "zagdrath"
+    },
+    "service": {
+      "hostname": "www.zagdrath.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1640669964,
+  "expire_in": 157680000,
+  "prev": "c72f4951746c84e603926bba8e27d09c2a502c67481ba472ea87e732b8631536",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMInAnicrVJbSBVBGD7H0lRUDMOiC9Sm1YPIzuzs7J5j90SwwvIlMcLjzM7scbPO
+ns5Zj5cyJS0zfDFEIrsgZRcIEiGiqxollEVWWJS+BIFBWPRiUWTNSr712P8yzD/f
+9833fzMPU+d4kr1TAxeXJuak/fIOD3ZVeciTCykHJWqzWsl/UKrkMwvfx3jUCVRa
+TPJLMpABxwxiBLmCVYMohq4xhnSuEyZjYlCDaBgCSnQFaZqqKhBDhiClmAOGZBUD
+JhMpRzKtUJBHwhEr5AhZgwBgEhlSbKqMijIxxtykimZQGXPKGDAVwFVBrLCjLkOY
+oyTKcy1b9MQmMGPvH/j/7LtqRg7pCGFOCFAZMwlSAaScMEUXDV2lwOcCozwSIvu5
+QNeRIIsQp0Kqz5FEN2YZ3A3WneQvorq6OncWlVtTWyf44Yjt2Ia9T5xWOE446nfZ
+Tm14Bs5p4K9QgFohJrIUjBiPRC07JPmBQBqO5SoDjGSMfT6MciReE7YiPGC5CFXD
+uizKvYfH3BfQoIl8KtAQNnTEsaz4IKYiDg41JvsMSFQZGlhDusgIaZATXeOaAqmO
+FaAqWHJHOxCyJb8qbJKgkIxawRBxqiJcqn8wsGeux5vsSYiPc/+YJzkpffbn3R2b
+N62iXT8LgsNOt7fx96kXKT0/Mosbyy5tyBxsy9rEndcnEUtOSD+y5ry+cvF0ktJ1
+zGjbnbcipbjydNeHscmJ8tz4a/qjls1XNKdr9bqMptTvb4vM0XDS0Kqmeu/97uzw
+LTo0/DorrX+8YNnzxvH23gZoKAtvZpz98nhqsvmzN64kVqs0LXnfWnlm/sMWs6xk
+tE/r29ES+/ZrLK78Vf65zI9fR0p73uz8tP3ZxgMZ09d7Vz899K63J+3lnc5th+N+
+HGlIXz6Vv6t9vGPvSOlWs7Mj/Xh21dGyw+vHvzVsHOgLLIBFQ/dSW6uHTzTDuf2J
+txeVFhaOXF2b15wGJh7f2NJx2Xb+ACh4PzY=
+=wXOu
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zagdrath
+
+==================================================================
