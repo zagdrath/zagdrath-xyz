@@ -20,6 +20,16 @@ a {
 	font-weight: bold;
 }
 
+a:hover {
+    color: #111;
+    background-color: #f70;
+    text-decoration-color: #f70;
+}
+
+#inblock a:hover {
+	color: #1a1a1a;
+}
+
 img {
 	border-radius: 8px;
 }
