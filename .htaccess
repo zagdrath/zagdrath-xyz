@@ -1,0 +1,10 @@
+ErrorDocument 404 /not-found.html
+
+ErrorDocument 403 /forbidden.html
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+Options All -Indexes
