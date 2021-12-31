@@ -15,13 +15,21 @@ hr {
     border-color: #ebdbb2;
 }
 
+dl {
+	line-height: 1.5em;
+}
+
+p {
+	line-height: 1.5em;
+}
+
 h3 {
 	color: #98971a;
 }
 
 h3::before {
 	content: "# ";
-  }
+}
 
 a {	
 	color: #d79921;
