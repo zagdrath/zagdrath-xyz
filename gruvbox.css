@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+
+body {
+    background-color: #282828;
+    color: #ebdbb2;
+    margin: 1em auto;
+    padding: 1em;
+    max-width: 750px;
+    font-weight: 400;
+    font-family: 'Fira Mono', monospace;
+    font-size: 16px;
+}
+
+hr {
+    border-color: #ebdbb2;
+}
+
+a {	
+	color: #d79921;
+	font-weight: bold;
+}
+
+a:hover {
+    color: #282828;
+    background-color: #d79921;
+    text-decoration-color: #d79921;
+}
+
+#inblock a:hover {
+	color: #3c3836;
+}
+
+img {
+	border-radius: 8px;
+}
+
+#block {
+    border-left: 6px solid #ebdbb2;
+    background-color: #3c3836;
+}
+
+#inblock {
+    margin: 12px;
+	padding: 6px;
+}
+
+/* Begin Fancyboi */
+#fancyboi::before {
+	content: "$ ";
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	@keyframes flash {
+		50% { opacity: 0; }
+	}
+	@keyframes reveal {
+		from { width: 2em; } /* Width of ::before */
+		  to { width: 100%; }
+	}
+	#fancyboi {
+		overflow: hidden;
+		white-space: nowrap;
+		animation: reveal 4s linear;
+		text-overflow: "█";
+	}
+	#fancyboi::after {
+		content: "█";
+		animation: flash 0.5s step-end infinite;
+	}
+}
+/* End Fancyboi */
