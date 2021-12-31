@@ -5,6 +5,7 @@
 This repository contains the source code to my personal website located at <a href="https://zagdrath.xyz/">zagdrath.xyz</a>.
 
 ## Acknowledgments
+* [gruvbox color scheme](https://github.com/morhetz/gruvbox)
 
 ## Licensing
 Copyright © 2021, Zagdrath. All Rights Reserved.
