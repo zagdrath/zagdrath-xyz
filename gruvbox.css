@@ -18,6 +18,8 @@ hr {
 a {	
 	color: #d79921;
 	font-weight: bold;
+	border-bottom: 1px dashed #d79921;
+	text-decoration: none;
 }
 
 a:hover {
@@ -27,7 +29,7 @@ a:hover {
 }
 
 #inblock a:hover {
-	color: #3c3836;
+	color: #282828;
 }
 
 img {
@@ -35,8 +37,8 @@ img {
 }
 
 #block {
-    border-left: 6px solid #ebdbb2;
-    background-color: #3c3836;
+    border: 1px solid #665c54;
+    background-color: #282828;
 }
 
 #inblock {
