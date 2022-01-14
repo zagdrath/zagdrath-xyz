@@ -15,27 +15,9 @@ hr {
     border-color: #fb5;
 }
 
-dl {
-	line-height: 1.5em;
-}
-
-p {
-	line-height: 1.5em;
-}
-
-h3 {
-	color: #f70;
-}
-
-h3::before {
-	content: "# ";
-}
-
 a {	
 	color: #f70;
 	font-weight: bold;
-	border-bottom: 1px dashed #f70;
-	text-decoration: none;
 }
 
 a:hover {
@@ -45,7 +27,7 @@ a:hover {
 }
 
 #inblock a:hover {
-	color: #111;
+	color: #1a1a1a;
 }
 
 img {
@@ -53,8 +35,8 @@ img {
 }
 
 #block {
-    border: 2px solid #fb5;
-    background-color: #111;
+    border-left: 6px solid #fb5;
+    background-color: #1a1a1a;
 }
 
 #inblock {
